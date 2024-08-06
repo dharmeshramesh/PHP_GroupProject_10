@@ -1,0 +1,92 @@
+.myDiv {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 2px solid #FF6347; 
+    background-color: #FFEBE8; 
+    color: #B22222; 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  border-color: red;
+  color: black;
+  
+  
+}
+
+
+ body{
+	background-image:url("background.jpg");
+	background-size: cover;
+ }
+ 
+ .new{
+	 margin-top: 140px;
+	 margin-left : 320px;
+ }
+
+
+ form {
+	max-width: 500px;
+	margin: auto;
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+.form-group {
+	margin-bottom: 15px;
+}
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333;
+}
+.form-group input[type="text"],
+.form-group input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box; /* Include padding in width */
+}
+input[type="submit"] {
+	background-color: #007BFF;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	width: 100%;
+}
+input[type="submit"]:hover {
+	background-color: #0056b3;
+}
+.error-message {
+	text-align: center;
+	margin: 10px 0;
+	color: #e74c3c; /* Error messages in red */
+}
+.new1 {
+	text-align: center;
+	margin-top: 20px;
+}
+.new1 a {
+	text-decoration: none;
+	color: #007BFF;
+}
+.new1 a:hover {
+	text-decoration: underline;
+}
+	 
+ 
+ 
